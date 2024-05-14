@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">EmpowerTakeHomeApp</string>
+    <string name="title_activity_beneficiary">Beneficiary</string>
+    <string name="title_activity_beneficiaries">Beneficiaries</string>
+    <string name="name_label">Name</string>
+    <string name="type_label">Type</string>
+    <string name="ssn_label">SSN</string>
+    <string name="phone_label">Phone</string>
+    <string name="address_label">Address</string>
+    <string name="designation_label">Designation</string>
+    <string name="dob_label">Date of Birth</string>
 </resources>

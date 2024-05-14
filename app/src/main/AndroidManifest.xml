@@ -13,11 +13,17 @@
         android:theme="@style/Theme.EmpowerTakeHomeApp"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.BeneficiaryDetailActivity"
+            android:exported="true"
+            android:label="@string/title_activity_beneficiary"
+            android:theme="@style/Theme.EmpowerTakeHomeApp" />
+        <activity
+            android:name=".ui.BeneficiaryListActivity"
+            android:exported="true"
+            android:label="@string/title_activity_beneficiaries"
+            android:theme="@style/Theme.EmpowerTakeHomeApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
